@@ -45,6 +45,13 @@ while not done:
 
                 pygame.draw.circle(screen, 'Red', coord, 10)
 
+            if event.button == 4 or event.button == 5:
+                screen.fill((0, 0, 0))
+                flag_red = 0
+                flag_blue = 0
+                coord_left = (-100, -100)
+                coord_right = (-100, -100)
+
         if event.type == pygame.QUIT:
             done = True
 
