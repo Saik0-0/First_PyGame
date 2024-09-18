@@ -2,7 +2,6 @@ import pygame
 
 pygame.init()
 screen = pygame.display.set_mode((400, 300))
-# pygame.draw.circle(screen, 'Pink', (100, 200), 30)
 
 x = 30
 y = 30
